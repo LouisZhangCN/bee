@@ -26,7 +26,6 @@
 *.order
 modules.builtin
 *.elf
-*.bin
 *.gz
 *.bz2
 *.lzma
@@ -84,4 +83,34 @@ GTAGS
 
 
 # output files
-OUT/*
+OUT/arch
+OUT/Makefile
+OUT/Module.symvers
+OUT/System.map
+OUT/arch/
+OUT/block/
+OUT/crypto/
+OUT/drivers/
+OUT/firmware/
+OUT/fs/
+OUT/include/
+OUT/init/
+OUT/ipc/
+OUT/kernel/
+OUT/lib/
+OUT/mm/
+OUT/net/
+OUT/scripts/
+OUT/security/
+OUT/source
+OUT/usr/
+OUT/vmlinux
+OUT/vmlinux.o
+OUT/.tmp_System.map
+OUT/.tmp_kallsyms1.S
+OUT/.tmp_kallsyms1.o
+OUT/.tmp_kallsyms2.S
+OUT/.tmp_kallsyms2.o
+OUT/.tmp_vmlinux1
+OUT/.tmp_vmlinux2
+OUT/.version
